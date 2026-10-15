@@ -10,9 +10,18 @@ SQL (BigQuery), Power BI (DAX), Microsoft Excel & PowerPoint
 
 ## Key Learnings
 - Menentukan cutoff secara data-driven: saya memakai band halus, margin error 95%, dan syarat sampel minimum, bukan menebak angka bulat.
-- Teliti pada batas bucket. Pembulatan floating point membuat nilai tepat 0,30 masuk band yang salah, dan temuan ini mengubah cara saya mengecek hasil query.
-- Menahan diri membaca sel kecil. Segmen di bawah 100 akun disembunyikan agar default rate tidak menyesatkan.
+- Menentukan pada batas bucket. Pembulatan floating point membuat nilai tepat 0,30 masuk band yang salah, dan temuan ini mengubah cara saya mengecek hasil query.
+- Membaca dan memilah data kecil. Segmen di bawah 100 akun disembunyikan agar default rate tidak menyesatkan.
 - Grade dan suku bunga saling berkorelasi, sehingga tidak boleh dihitung ganda dalam skor risiko.
 Hasil ini asosiasi pada data observasi, bukan sebab-akibat, dan cutoff perlu divalidasi pada data lain.
-- Mencocokkan hasil SQL dengan dashboard, termasuk memahami kenapa tabel yang dibatasi LIMIT tampak berbeda dari visual yang lengkap.
 - Mengubah analisis menjadi cerita dan tindakan: tier risiko yang bisa dipakai untuk pemantauan dan keputusan kredit.
+
+## Dataset
+[Link](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
+
+## Analysis
+[Link](https://docs.google.com/presentation/d/e/2PACX-1vR-Q6zJ5RztL-Z9Tk0Mb_RsHxhnCUo0O6OsZTECvssh7OvIGZIwmMuFaH7bRv5AQQ/pub?start=false&loop=false&delayms=3000)
+
+## Dashboard
+[tampilan dashboard][<img width="691" height="388" alt="Dasboard" src="https://github.com/user-attachments/assets/4127846f-92ac-41a8-acc0-b5a12b63acc3" />
+
